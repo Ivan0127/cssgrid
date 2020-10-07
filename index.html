@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>cssgrid</title>
+<link rel="stylesheet" href="https://use.typekit.net/xzv2xhg.css">
+<link rel="stylesheet" href="https://use.typekit.net/xzv2xhg.css">
+<link href="shhet.css" type="text/css" rel="stylesheet">
+<style>
+	
+	.wrapper{display:grid;
+		grid-template-columns: 3fr 7fr;
+	grid-column-gap: .5em;
+		grid-row-gap: .5em;
+		grid-auto-rows:minmax(100px, auto);
+	}
+	.wrapper > div{
+		background:#dbc4a0;
+		padding: 1em;
+	}
+	.wrapper > div:nth-child(odd){
+		background:#b7e815;}
+	
+	.header{ grid-column:1/3;grid-row:auto;background-image: linear-gradient(red, yellow);}
+	.article{grid-column:3/3; grid-row:2/3;}
+	.arcticleb{grid-area: 1/3}
+	.section{grid-area: auto}
+	.footer{grid-column:1/4;grid-row:}
+	
+	
+	
+	
+	
+	
+	</style>
+
+</head>
+
+<body>
+<div class="wrapper">
+	<div class="header"><h1><b><i>LOREM IPSUM&reg;</i></b></h1></div>
+	
+	<div class="articleb"><h4>What <i>is</i> lorem ipsum?&#129300;</h4> <p>Lorem Ipsum is just randomized sample text used to fill in projects that require text but the text content isn't the main focus of the project.</p><p><nav><a href="https://en.wikipedia.org/wiki/Lorem_ipsum"><i>Here's a wikipedia article about it.</i></a></nav></p>
+	</div>
+	
+	<div class="article"><h5>Here's an example:</h5><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur quis architecto ea voluptatibus ratione eos, odio perferendis aut praesentium. Ratione quas debitis, quam expedita delectus nam repellendus vitae deleniti unde ad nesciunt voluptatibus dolorem eveniet quae provident, ea neque magnam itaque laboriosam ut, asperiores dicta illum nostrum! Voluptatem minus qui eum facere dolor. Voluptate est natus doloremque inventore nostrum quibusdam quidem dolor expedita placeat odit! Quasi tenetur asperiores officia, eaque! Eligendi quasi quidem consectetur velit accusantium vel quod magnam ex repudiandae nisi soluta deserunt dolorem porro ullam odit sapiente distinctio reiciendis asperiores sed non repellat nemo, temporibus. Quam quos iste sed ullam non, amet aut voluptatem ex excepturi dolorem harum beatae sint nisi, magnam assumenda consectetur quidem neque nostrum inventore deleniti dolor ea molestiae! Dolorem sint voluptates officia atque soluta eaque, et magni? Pariatur id quasi, asperiores officia dolores numquam saepe odit, suscipit! Deleniti, in odit minima aut quod dolorem nisi doloremque rem quisquam, vitae accusamus, sint iusto voluptatem perferendis alias. Adipisci minima voluptas deleniti, quam molestias nulla enim atque esse reiciendis quo, veritatis hic nemo? Id, officia minima explicabo soluta accusantium quos vel dicta consectetur illum sit temporibus illo, consequatur itaque libero veniam distinctio nostrum tempora qui rerum facere necessitatibus, nemo voluptatibus. Aliquid, libero. Repellendus, rem consequuntur culpa. Repellat labore incidunt sunt consectetur ea, aut sapiente quod officiis repudiandae, nesciunt, laborum at totam obcaecati dolores, rerum adipisci non officia iusto sit eum ab iure explicabo! Nihil debitis incidunt perspiciatis beatae quos. Quae harum, nobis aliquid placeat. Reprehenderit illum minus cupiditate excepturi, recusandae voluptatem incidunt, omnis deleniti quisquam neque, doloribus accusantium quod illo? Mollitia autem quisquam eaque repellendus expedita sequi perspiciatis quas libero nesciunt ducimus optio hic consectetur, aperiam sapiente beatae, laudantium blanditiis neque repudiandae iusto asperiores pariatur obcaecati nam maiores aliquam. Ipsam delectus deleniti, nisi voluptas, atque cumque debitis?</p></div>
+	
+	<div class="section"><img src="images/mockupwithtext.png" alt="preliminary webpage version"><p>A few concepts for this page's design.</p></div>
+	
+	
+	<div class="footer">Thanks for learning about Lorem Ipsum </div>
+	</div>
+</body>
+</html>
